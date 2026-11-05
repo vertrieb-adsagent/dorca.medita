@@ -1,0 +1,19 @@
+/*
+Theme Name:   Dorca Medita
+Description:  Landingpage-Theme für Dorca Medita, Zürich. Startseite auf Deutsch, spanische Version unter /es/, mit Sprachwahl DE/ES unten rechts.
+Version:      1.0.0
+Author:       Klarton
+Requires at least: 5.0
+Requires PHP: 7.0
+License:      GPL-2.0-or-later
+Text Domain:  dorca-medita
+*/
+
+/* Einfache Darstellung für weitere Seiten (z. B. Impressum, Datenschutz) */
+html, body { margin: 0; padding: 0; background: #fff; }
+.dm-page { max-width: 760px; margin: 0 auto; padding: 4rem 20px 5rem; font-family: 'DM Sans', 'Segoe UI', sans-serif; color: #555; line-height: 1.8; }
+.dm-page a { color: #6d4c33; }
+.dm-page h1, .dm-page h2, .dm-page h3 { font-family: 'Playfair Display', Georgia, serif; color: #6d4c33; font-weight: 500; line-height: 1.25; }
+.dm-page h1 { font-size: clamp(1.8rem, 4vw, 2.4rem); margin: 0 0 1.5rem; }
+.dm-page img { max-width: 100%; height: auto; }
+.dm-page-back { display: inline-block; margin-bottom: 2rem; font-size: .85rem; font-weight: 600; text-decoration: none; }
